@@ -5,7 +5,7 @@ export const EmpresasMasValiosasComponent = () => {
     return (
         <div className="container">
         <div className="artistic-title">
-        <h1>Empresas Más Valiosas</h1>
+        <h1>Empresas Más Valiosas 1</h1>
       </div>
         <ul className="empresa-list">
             {empresasMasValiosas.map((empresa) => (
