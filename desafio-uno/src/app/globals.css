@@ -1,0 +1,68 @@
+/* Estilos CSS */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 20px;
+  box-sizing: border-box; /* Asegura que el padding no aumente el ancho */
+}
+
+.artistic-title {
+  font-size: 3rem;
+  color: #251446;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.empresa-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.empresa-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.empresa-imagen {
+  max-width: 200px; /* Tamaño máximo deseado para las imágenes */
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.empresa-info {
+  flex: 1;
+}
+
+.empresa-info h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.empresa-info p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .empresa-item {
+    flex-direction: column;
+  }
+
+  .empresa-imagen {
+    max-width: 100%;
+    margin-bottom: 10px; /* Espacio alrededor de la imagen en dispositivos móviles */
+  }
+}
